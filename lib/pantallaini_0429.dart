@@ -20,13 +20,25 @@ class PantallaIni_0429 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/Pantalla1_0429');
               },
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff7a0000)),
               child: Text("Mover a Pantalla 1"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/Pantalla2_0429');
               },
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff1b007a)),
               child: Text("Mover a Pantalla 2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/Pantalla3_0429');
+              },
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff5d007a)),
+              child: Text("Mover a Pantalla 3"),
             )
           ], // fin de nino
         ),

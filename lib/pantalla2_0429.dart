@@ -9,29 +9,28 @@ class Pantalla2_0429 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla2 0429"),
-        backgroundColor: Colors.blue,
+        title: Text("Pantalla2 Arellano 0429"),
+        backgroundColor: Color(0xffff8900),
       ),
       body: Center(
-          child: Center(
         child: Container(
-          margin: EdgeInsets.all(10),
-          color: Color(0xffff2b2b),
-          width: double.infinity,
-          height: 200,
-          child: Card(
-            color: Color(0xffff8383),
-            margin: EdgeInsets.all(10),
-            child: Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(
-                'Flutter Teacher',
-                style: TextStyle(fontSize: 40, color: Colors.white),
-              ),
+          color: Color(0xffff9e42),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 350,
+            maxWidth: 300,
+          ),
+          child: Container(
+            padding: EdgeInsets.all(30),
+            alignment: Alignment.center,
+            child: Text(
+              'Esta es la pantalla 2 del proyecto "Arellano" 0429',
+              style: TextStyle(fontSize: 40),
             ),
           ),
         ),
-      )),
+      ),
     );
   }
 }

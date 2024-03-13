@@ -9,19 +9,20 @@ class Pantalla1_0429 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla1 0429'),
-        backgroundColor: Colors.blue,
+        title: Text('Pantalla1 Arellano 0429'),
+        backgroundColor: Color(0xffff2525),
       ),
       body: Center(
-        // Simple Card
-        child: Card(
-          color: Colors.red,
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              'Pantalla1 Arellano',
-              style: TextStyle(fontSize: 30, color: Colors.white),
-            ),
+        child: Container(
+          color: Color(0xff656fff),
+          width: 300,
+          height: 200,
+          padding: EdgeInsets.all(50),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Pantalla1 Arellano 0429',
+            style: TextStyle(fontSize: 40),
           ),
         ),
       ),

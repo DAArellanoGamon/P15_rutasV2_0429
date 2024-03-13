@@ -16,13 +16,13 @@ class Pantalla3_0429 extends StatelessWidget {
       body: Center(
         child: Container(
           color: Color(0xff1b007a),
-          width: 300,
-          height: 250,
-          padding: EdgeInsets.all(30),
+          width: 250,
+          height: 200,
+          padding: EdgeInsets.all(25),
           alignment: Alignment.center,
 
-          // for anti-clock wise use Matrix4.rotationZ(-(math.pi / 180) * 20),
-          //transform: Matrix4.rotationZ((math.pi / 180) * 20),
+          //for anti-clock wise use Matrix4.rotationZ(-(math.pi / 180) * 20),
+          transform: Matrix4.rotationZ((math.pi / 200) * 20),
 
           child: Text(
             'Pantalla 3 Arellano 0429',
